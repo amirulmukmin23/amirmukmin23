@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PROFIL SAYA</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Amirul</a>
+    <nav class="navbar">
+      <a href="#" class="active">Home</a>
+      <a href="#profil">Profil</a>
+      <a href="#multimedia">Multimedia</a>
+      <a href="#projek">Projek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-wrapper">
+      <div class="home-content">
+        <h1>Hi, Saya Amirul Mukminin</h1>
+        <h3>Mahasiswa UISI</h3>
+        <p>"Perkenalkan, nama saya Amirul Mukminin. Saya berasal dari Gresik dan saat ini berkuliah di Universitas Internasional Semen Indonesia (UISI), jurusan Sistem Informasi. Saya tertarik dengan web design. Saat ini, saya juga sedang mempelajari hal kecil untuk web design. Di luar akademik, saya suka bermain game dan menonton anime."</p>
+      </div>
+
+      <div class="foto-content">
+        <img src="profil.png" alt="Foto Saya" width="200">
+      </div>
+    </div>
+
+    <div class="home-sci">
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-whatsapp'></i></a>
+      <a href="#"><i class='bx bxl-gmail'></i></a>
+    </div>
+  </section>
+
+  <section id="profil" class="section-container">
+    <div class="profil-content">
+    <legend><h1 align="center">PROFIL</h1></legend><br><br>
+      <h2>Ini beberapa hobi saya :</h2><br>
+      <ul>
+        <li>Bermain Game</li>
+        <li>Bermain Badminton</li>
+        <li>Menonton Anime</li>
+      </ul><br>
+      <aside>
+        <h3>Bermain Game</h3>
+        <p>Saya suka bermain game, terutama yang bergenre Mobile dan FPS. Selain menghibur, game juga bisa melatih cara berpikir dan mengambil keputusan</p>
+      </aside><br>
+      <aside>
+        <h3>Bermain Badminton</h3>
+        <p>Badminton jadi salah satu olahraga favorit saya karena selain menyehatkan, juga menyenangkan untuk dimainkan bersama teman</p>
+      </aside><br>
+      <aside>
+        <h3>Menonton Anime</h3>
+        <p>Saya menikmati menonton anime karena banyak cerita yang menarik dan karakter yang inspiratif. Selain itu, anime juga sering punya pesan yang bisa diambil</p>
+      </aside><br>
+    </div>
+  </section>
+
+  <section id="multimedia" class="section-container">
+    </legend><h1 align="center">MULTIMEDIA</h1></legend><br><br>
+    <video width="365" height="240" controls>
+      <source src="BelajarHTML.mp4" type="video/mp4">
+    </video>
+    <audio controls>
+      <source src="In The End - Linkin Park.mp3" type="audio/mp3">
+    </audio>
+  </section>
+
+  <section id="projek" class="section-container">
+    <legend><h2 align="center">HASIL KARYA</h2></legend><br><br>
+    <table>
+      <tr>
+        <td><img src="gambar1.png" alt="gambar1" width="335" height="240"></td>
+        <td><img src="gambar2.png" alt="gambar2" width="335" height="240"></td>
+      </tr>
+    </table>
+    <article>
+      <h3>1. UI/UX Desain Toko Kopi Bubuk</h3>
+      <p>Ini adalah hasil karya desain yang dibuat untuk penjualan kopi bubuk, terdapat beberapa jenis kopi, penjelasan tentang kopi, dan harganya.</p>
+      <h3>2. UI/UX Desain Bengkel Servis</h3>
+      <p>Ini adalah hasil karya desain yang dibuat untuk Bengkel Servis yang menyediakan beberapa pelayanan 24 jam, lokasi bengkel terdekat, dll.</p>
+    </article>
+  </section>
+
+  <section id="kontak" class="section-container">
+    <legend><h2 align="center">Formulir Kontak</h2></legend><br><br>
+    <form action="proses_form.php" method="post">
+      <label>Nama:</label>
+      <input type="text" name="nama" placeholder="Masukkan nama" required><br><br>
+
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="Masukkan email" required><br><br>
+
+      <label>Nomor Telepon:</label>
+      <input type="tel" name="telepon" placeholder="Masukkan nomor telepon" required><br><br>
+
+      <label>Pesan:
+        <select id="pesan">
+          <option value="pertanyaan">Pertanyaan</option>
+          <option value="masukan">Masukan</option>
+          <option value="lainnya">Lainnya</option>
+        </select><br><br>
+      </label>
+      <textarea name="pesan" rows="4" placeholder="Tulis pesan Anda di sini" required></textarea><br>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Hak Cipta &copy; BY: AMIRUL MUKMININ</p>
+  </footer>
+</body>
+</html>
